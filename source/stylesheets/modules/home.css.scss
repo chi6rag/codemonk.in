@@ -1,0 +1,41 @@
+#home {
+  background: #090909;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+
+  .logo {
+    margin: 0 auto;
+    width: 182px;
+
+    img {
+      margin-top: 32px;
+    }
+  }
+
+  .message {
+    margin: 150px 0 200px;
+  }
+
+  .caption {
+    font-size: 23px;
+    color: #ACACAC;
+    font-weight: 300;
+  }
+
+  .comming-soon {
+    font-size: 80px;
+    color: #ECECEC;
+    font-weight: bold;
+  }
+
+  .elipses {
+    color: #873175;
+  }
+
+  .contact-us {
+    font-size: 1.125em;
+    font-weight: 300;
+    color: #873175;
+  }
+}
