@@ -38,4 +38,17 @@
     font-weight: 300;
     color: #873175;
   }
+
+  @media (max-width: 760px) {
+    .message {
+      margin: 80px 0 90px;
+    }
+
+    .caption {
+      font-size: 16px;
+    }
+    .comming-soon {
+      font-size: 56px;
+    }
+  }
 }
