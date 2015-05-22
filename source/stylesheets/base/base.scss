@@ -1,27 +1,68 @@
 // Placeholder
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url(font-path('fonts/Montserrat-Regular.ttf')) format('truetype');
-}
+$default-context: 18px; // Default
+$screen-md: 992px;
+$screen-sm: 768px;
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url(font-path('fonts/Montserrat-Bold.ttf')) format('truetype');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url(font-path('fonts/Montserrat-Light.ttf')) format('truetype');
-  font-weight: 300;
+@function em($pixels, $context: $default-context) {
+  @return $pixels / $context * 1em;;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: $default-context;
+  color: #4C4C4C;
 }
 
 img {
   max-width: 100%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: em(100px);
+  color: #F5F3F5;
+  @media(max-width:$screen-md){
+    font-size: em(75px);
+  }
+  @media(max-width:$screen-sm){
+    font-size: em(50px);
+  }
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: em(48px);
+  color: #873175;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: em(32px);
+  color: #BCBCBC;
+  @media(max-width:$screen-md){
+    font-size: em(24px);
+  }
+}
+
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: em(24px);
+  color: #4C4C4C;
+  @media(max-width:$screen-sm){
+    font-size: em(20px);
+  }
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: em(18px);
+  color: #4C4C4C;
 }
