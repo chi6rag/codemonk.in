@@ -1,0 +1,15 @@
+/* line 3, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/keywords.css.scss */
+.keywords {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 8, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/keywords.css.scss */
+  .keywords .keyword {
+    float: left;
+    background-color: #E5E3E4;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: em(16px);
+    color: #8C8C8C; }

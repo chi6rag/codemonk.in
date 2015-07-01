@@ -1,0 +1,44 @@
+/* line 1, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+#home {
+  background: #090909;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center; }
+  /* line 7, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+  #home .logo {
+    margin: 0 auto;
+    width: 182px; }
+    /* line 11, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+    #home .logo img {
+      margin-top: 32px; }
+  /* line 16, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+  #home .message {
+    margin: 150px 0 200px; }
+  /* line 20, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+  #home .caption {
+    font-size: 23px;
+    color: #ACACAC;
+    font-weight: 300; }
+  /* line 26, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+  #home .comming-soon {
+    font-size: 80px;
+    color: #ECECEC;
+    font-weight: bold; }
+  /* line 32, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+  #home .elipses {
+    color: #873175; }
+  /* line 36, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+  #home .contact-us {
+    font-size: 1.125em;
+    font-weight: 300;
+    color: #873175; }
+  @media (max-width: 760px) {
+    /* line 43, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+    #home .message {
+      margin: 80px 0 90px; }
+    /* line 47, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+    #home .caption {
+      font-size: 16px; }
+    /* line 50, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/home.css.scss */
+    #home .comming-soon {
+      font-size: 56px; } }

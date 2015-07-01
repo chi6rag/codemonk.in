@@ -1,0 +1,42 @@
+/* line 1, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+#codemonk-menu.navbar-default {
+  background-color: #040404;
+  border-width: 0px;
+  border-radius: 0px; }
+  /* line 7, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+  #codemonk-menu.navbar-default .brand img {
+    height: 40px;
+    margin: 10px 0; }
+  /* line 12, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+  #codemonk-menu.navbar-default .navbar-nav {
+    margin-right: 10px; }
+    /* line 15, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+    #codemonk-menu.navbar-default .navbar-nav li > a {
+      color: #cfcfca; }
+      /* line 17, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+      #codemonk-menu.navbar-default .navbar-nav li > a:hover, #codemonk-menu.navbar-default .navbar-nav li > a:focus {
+        color: white; }
+    /* line 22, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+    #codemonk-menu.navbar-default .navbar-nav .active > a {
+      color: white; }
+  /* line 27, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+  #codemonk-menu.navbar-default .navbar-toggle {
+    border-color: #ddd; }
+    /* line 29, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+    #codemonk-menu.navbar-default .navbar-toggle:hover, #codemonk-menu.navbar-default .navbar-toggle:focus {
+      background-color: #ddd; }
+    /* line 33, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+    #codemonk-menu.navbar-default .navbar-toggle .icon-bar {
+      background-color: #888; }
+    /* line 36, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+    #codemonk-menu.navbar-default .navbar-toggle:hover .icon-bar, #codemonk-menu.navbar-default .navbar-toggle:focus .icon-bar {
+      background-color: #3b3838; }
+  /* line 42, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+  #codemonk-menu.navbar-default .navbar-header {
+    margin-left: 10px; }
+  @media (max-width: 768px) {
+    /* line 47, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/modules/navbar.css.scss */
+    #codemonk-menu.navbar-default .navbar-collapse {
+      background-color: rgba(56, 56, 56, 0.5);
+      border: none;
+      text-align: right; } }

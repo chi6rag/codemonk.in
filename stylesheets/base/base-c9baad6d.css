@@ -1,0 +1,62 @@
+/* line 11, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #4C4C4C; }
+
+/* line 18, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+img {
+  max-width: 100%; }
+
+/* line 22, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 5.55556em;
+  color: #F5F3F5; }
+  @media (max-width: 992px) {
+    /* line 22, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+    h1 {
+      font-size: 4.16667em; } }
+  @media (max-width: 768px) {
+    /* line 22, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+    h1 {
+      font-size: 2.77778em; } }
+
+/* line 35, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 2.66667em;
+  color: #873175;
+  margin-top: 0; }
+
+/* line 43, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.77778em;
+  color: #BCBCBC; }
+  @media (max-width: 992px) {
+    /* line 43, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+    h3 {
+      font-size: 1.33333em; } }
+
+/* line 53, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.33333em;
+  color: #4C4C4C; }
+  @media (max-width: 768px) {
+    /* line 53, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+    h4 {
+      font-size: 1.11111em; } }
+
+/* line 63, /Users/sidu/Work/C42/codemonk.in/source/stylesheets/base/base.scss */
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: #4C4C4C; }
