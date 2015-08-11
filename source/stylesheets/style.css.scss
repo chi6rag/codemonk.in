@@ -1,0 +1,95 @@
+@import "base/normalize";
+
+@import "bootstrap-compass";
+@import "bootstrap";
+
+@import "base/base";
+
+@import "modules/navbar";
+@import "modules/banner";
+@import "modules/keywords";
+
+.banner {
+  background-color: #040404;
+  padding: em(250px) 0;
+  @media(max-width:$screen-md){
+    padding: em(175px) 0;
+  }
+  @media(max-width:$screen-sm){
+    padding: em(125px) 0;
+  }
+}
+
+.text-purple {
+  color: #873175;
+}
+
+.dark {
+  background-color: #F1F2F3;
+}
+
+.light {
+  background-color: #FFFFFF;
+}
+
+.header-row {
+  margin: 0 auto em(24px);
+}
+
+.extract {
+  margin: 1em auto;
+  width: 90%;
+  text-align: justify;
+}
+
+.about {
+  padding: em(48px) 0;
+}
+
+.services, .methodology, .engagement, .contact-us {
+  padding: em(48px) 0;
+}
+
+.service {
+  @media(max-width:$screen-md){
+    margin: em(48px) auto 0;
+    .keyword {
+      float: none;
+      display: inline-block;
+    }
+  }
+}
+.methodology, .engagement {
+  .keyword {
+    float: none;
+    display: inline-block;
+  }
+}
+
+.contact-us {
+  background-color: #040404;
+  .mail {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: em(24px);
+    color: #BCBCBC;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #BCBCBC;
+  }
+
+  .foot-note {
+    margin-top: em(90px);
+  }
+}
+
+// under dev
+.portfolio {
+  margin: 1em auto;
+  .logo {
+    width: 50%;
+    margin: 1em auto;
+  }
+}

@@ -1,0 +1,53 @@
+#codemonk-menu.navbar-default {
+  background-color: rgba(4, 4, 4, 1);
+  border-width: 0px;
+  border-radius: 0px;
+  $navbar-margin: 10px;
+
+  .brand img {
+    height: 40px;
+    margin: 10px 0;
+  }
+
+  .navbar-nav {
+    margin-right: $navbar-margin;
+
+    li > a {
+      color: rgb(207, 207, 202);
+      &:hover,
+      &:focus {
+	color: rgba(255, 255, 255, 1);
+      }
+    }
+    .active > a {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  .navbar-toggle {
+    border-color: #ddd;
+    &:hover,
+    &:focus {
+      background-color: #ddd;
+    }
+    .icon-bar {
+      background-color: #888;
+    }
+    &:hover .icon-bar,
+    &:focus .icon-bar {
+      background-color: #3b3838;
+    }
+  }
+
+  .navbar-header {
+    margin-left: $navbar-margin;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      background-color: rgba(56, 56, 56, 0.50);
+      border: none;
+      text-align: right;
+    }
+  }
+}

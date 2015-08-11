@@ -1,0 +1,16 @@
+@import "compass/utilities/general/clearfix";
+
+.keywords {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  @include clearfix;
+  .keyword {
+    float: left;
+    background-color: #E5E3E4;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: em(16px);
+    color: #8C8C8C;
+  }
+}

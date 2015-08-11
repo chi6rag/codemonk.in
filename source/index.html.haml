@@ -1,0 +1,106 @@
+%section.banner
+  .container-fluid
+    .row.text-center
+      %h1
+        Expert Engineering
+        %span.text-purple .
+    .row.text-center
+      %h3
+        Continuously Delivered.
+
+%section.about.dark
+  .container-fluid
+    .row.text-center
+      %h4
+        CodeMonk is a boutique software engineering consultancy.
+
+%section.history.light.hidden
+  .container.header-row
+    .row.text-center
+      %h2
+        History
+      %h4
+        Success with both Start-ups & Fortune 500 Cos.
+    .row
+      .portfolio.col-md-4
+        .logo
+          = image_tag "codemonk-logo.png"
+        .extract
+          Flipkart, India’s largest online retailer valued over USD 11 billion, hired CodeMonk to build their Ruby/Rails capabilities, implement Agile best practices, and support their technology teams in DevOps and Infrastructure.
+        .keywords
+          - ["Rails", "JRuby", "REST", "Padrino", "Extreme Programming"].each do |kw|
+            .keyword
+              = kw
+
+%section.services.light
+  .container
+    .row.text-center.header-row
+      %h2
+        Services
+      %h4
+        Development. DevOps. Coaching.
+    .row
+      .service.col-md-4
+        %h5.text-center Development
+        .extract
+          CodeMonk's engineering is meticulously crafted from strategy to design to continuous delivery. With years of experience building and running engineering teams of the highest quality software which can be trusted any time. CodeMonk can develop applications of any shape and size in Ruby, JavaScript, Clojure or Golang, but can also adapt to other intersting technology stacks.
+        .keywords
+          - ["Web Apps", "APIs", "Clojure", "Ruby", "Python", "Golang", "Java", "JavaScript", "Rails", "React", "TDD", "CI"].each do |kw|
+            .keyword
+              = kw
+      .service.col-md-4
+        %h5.text-center DevOps
+        .extract
+          Fast moving businesses need fast & reliable IT operations. At CodeMonk we believe in disrupting traditional deployments to create fast, scalable, continuously deliverable software & infrastructure environments. CodeMonk can develop custom solutions or manage the operations, or do both using best of cloud & automation tools.
+        .keywords
+          - ["AWS", "Chef", "Docker", "Azure", "Jenkins", "Puppet", "Nagios"].each do |kw|
+            .keyword
+              = kw
+      .service.col-md-4
+        %h5.text-center Coaching
+        .extract
+          As vocal practitioners of agile & reliable engineering, CodeMonk frequently advises start-ups & corporates to build culture & processes focusing on code, and also to resolve any strategic & tactical conundrums resulting from software, infrastructure & operations.
+        .keywords
+          - ["Training", "Support", "Strategy", "Workshops", "Operations"].each do |kw|
+            .keyword
+              = kw
+
+%section.methodology.dark
+  .container
+    .row.text-center.header-row
+      %h2
+        Methodology
+    .row.text-center
+      .extract
+        With an unwavering vision to deliver engineering zen every time, CodeMonk is flexible in its approach to surpassing project goals. Always eager to experiment, learn & deliver with pace, CodeMonk adapts the lean & agile development methodologies to iterate & deploy continuously, improve code quality and decrease error rates in codebase & infrastructure.
+    .row
+      .keywords
+        - ["Agile","Lean","Scrum","Continuous Delivery","Continuous Integration","Automation"].each do |kw|
+          .keyword
+            = kw
+
+%section.engagement.light
+  .container
+    .row.text-center.header-row
+      %h2
+        Engagement
+    .row.text-center
+      .extract
+        From short term projects to complete engineering & operations management, business leaders trust CodeMonk in different ways. CodeMonk retains flexibility in how it engages with clients, depending on the nature of the problem & the solution. From strategy & training to managing app & infrastructure environments end-to-end, if you have an engineering problem, CodeMonk has a solution.
+    .row
+      .keywords
+        - ["Fixed Bid", "Time & Material", "Retainership", "Flexible Model"].each do |kw|
+          .keyword
+            = kw
+
+%section.contact-us
+  .container
+    .row.text-center.header-row
+      %h2
+        Contact
+    .row.text-center
+      .col-md-12.mail
+        Direct your queries & comments to
+        = mail_to "hi@codemonk.in", "hi@codemonk.in"
+      .col-md-12.foot-note
+        CodeMonk is a joint effort between CodeIgnition Software Solutions Pvt. Ltd. & C42 Engineering India Pvt. Ltd.
